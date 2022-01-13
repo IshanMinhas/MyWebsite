@@ -4,18 +4,18 @@
     "description":"God has not promised Skies always blue, \r Flower-strewn pathways  \r All our life through; \r \r God has not promised Sun without rain, \r Joy without sorrow, \r Peace without pain.” \r ― A.P.J. Abdul Kalam, Wings of Fire \r \r ",
     "designation": "Deep Learning and Machine Learning Enthusiast | React.js Web Developer",
     "image":"mypiccropped.png",
-    "bio":"I am a B.E. Computer Science and MSc. Economics double major at BITS Pilani, Goa campus. I am a Deep Learning and Machine Learning enthusiast, who loves to experiment and explore new ideas. I love maths, econometrics and statistics. I also love to work on web development using React.js. I firmly believe that projects are the best way to transition from knowledge to excellency in any subject.  \r \r ",
-    "misc": "I am fluent in English and Hindi. I also have working profiency in French, and am beginning to learn German. Übung macht den Meister!",
+    "bio":"I am a B.E. Electronics and  Computer Science major at Thapar University. I am a Deep Learning and Machine Learning enthusiast, who loves to experiment and explore new ideas. I love maths, statistics and data analysis . I also love to work on web development using React.js. I firmly believe that projects are the best way to transition from knowledge to excellency in any subject.  \r \r ",
+    "misc": "I am fluent in English, Hindi and Punjabi. Übung macht den Meister!",
     "contactmessage":"Let's get in touch! Fill the form below to shoot me a message",
     "email": "ishan1081@gmail.com",
-    "phone": "+91 9834797109/ +91 7566444887",
+    "phone": "+91 6283185848",
     "github":"https://github.com/ishanminhas",
     "certificates":"",
     "address":{
-      "street":"D-236, Terrace House, Ayodhya Nagar",
-      "city":"Bhopal",
-      "state":"Madhya Pradesh",
-      "zip": "462042"
+      "street":"Bank Colony",
+      "city":"Jalandhar",
+      "state":"Punjab",
+      "zip": "144003"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"",
@@ -27,7 +27,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/arshika-lalan-ba0573195/",
+        "url":"https://linkedin.com/in/rishab-garg-795766175",
         "className":"fa fa-linkedin"
       },
       {
@@ -42,15 +42,15 @@
     "education":[
       {
         "school":"Thapar University, Patiala",
-        "degree":"B.E Computer Science and MSc. Economics (Dual Major)",
-        "graduated":"August 2017-June 2022",
-        "description":"CGPA: 8.37/10"
+        "degree":"B.E Electronics and Computer Science",
+        "graduated":"August 2019-June 2023",
+        "description":"CGPA: 8.00/10"
       },
       {
-        "school":"Delhi Public School, Bhopal",
+        "school":"Innocent Hearts School",
         "degree":"High School",
-        "graduated":"April 2017",
-        "description":"Class XII, CBSE: (PCM) 94.2%      Class X, CBSE: 10/10"
+        "graduated":"April 2018",
+        "description":"Class XII, CBSE: (PCM) 86.7%      Class X, CBSE: 9.8/10"
       }
     ],
     "work":[
@@ -115,11 +115,11 @@
         "level":"80%"
       },
       {
-        "name":"C++",
-        "level":"75%"
+        "name":"C++ and Data Structures & Algorithms",
+        "level":"70%"
       },
       {
-        "name":"JAVA",
+        "name":"MySQL",
         "level":"65%"
       }
     ]
