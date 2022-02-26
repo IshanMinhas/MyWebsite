@@ -119,7 +119,7 @@ class Contact extends Component {
                         <a href="https://bethenovelpoet.wordpress.com/" target="_blank" rel="noopener noreferrer"><h4>Check out my writing blog!</h4></a>
                         </span>
                      </li>
-                     <li>
+                     {/* <li>
                         <span>
                         <a href="https://www.instagram.com/scribesbyarshika/" target="_blank" rel="noopener noreferrer"><h4>Check out my Instagram writing account!</h4></a>
                         </span>
@@ -128,7 +128,7 @@ class Contact extends Component {
                         <span>
                         <a href="https://store.pothi.com/book/arshika-lalan-dear-diary/" target="_blank" rel="noopener noreferrer"><h4>Check out my published poetry book!</h4></a>
                         </span>
-                     </li>
+                     </li> */}
                   </ul>
 		         </div>
             </aside>
