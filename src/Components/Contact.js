@@ -90,7 +90,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage" name = "message">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage " onChange={this.handleChange}></textarea>
                   </div>
 
                   <div>
@@ -119,16 +119,7 @@ class Contact extends Component {
                         <a href="https://bethenovelpoet.wordpress.com/" target="_blank" rel="noopener noreferrer"><h4>Check out my writing blog!</h4></a>
                         </span>
                      </li>
-                     {/* <li>
-                        <span>
-                        <a href="https://www.instagram.com/scribesbyarshika/" target="_blank" rel="noopener noreferrer"><h4>Check out my Instagram writing account!</h4></a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                        <a href="https://store.pothi.com/book/arshika-lalan-dear-diary/" target="_blank" rel="noopener noreferrer"><h4>Check out my published poetry book!</h4></a>
-                        </span>
-                     </li> */}
+                     
                   </ul>
 		         </div>
             </aside>
