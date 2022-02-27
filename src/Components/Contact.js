@@ -1,5 +1,46 @@
 import React, { Component } from 'react';
 import axios from "axios";
+import { useForm } from '@formcarry/react';
+ 
+function MyFormcarry() {
+  // Call the `useForm` hook in your function component
+  const {state, submit} = useForm({
+    id: 'xD3hsEQ3RHW'
+  });
+ 
+  // Success message
+  if (state.submitted) {
+    return <div>Thank you! Received your submission, will contact shortly</div>;
+  }
+ 
+  return (
+    <form onSubmit={submit}>
+          <label htmlFor="contactEmail" name="email">Email <span className="required">*</span></label>
+			 <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail"/>
+ 
+          <label htmlFor="contactMessage" name = "message">Message <span className="required">*</span></label>
+          <textarea cols="50" rows="15" id="contactMessage" name="contactMessage " ></textarea>
+ 
+        <button type="submit">Send</button>
+    </form>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Contact extends Component {
 
@@ -12,7 +53,7 @@ class Contact extends Component {
 
    handleForm = e => {
       axios.post(
-          "https://formcarry.com/s/xD3hsEQ3RHW", 
+         //  "https://formcarry.com/s/xD3hsEQ3RHW", 
           this.state, 
           {headers: {"Accept": "application/json"}}
         )
@@ -90,7 +131,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage" name = "message">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage " onChange={this.handleChange}></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage " ></textarea>
                   </div>
 
                   <div>
